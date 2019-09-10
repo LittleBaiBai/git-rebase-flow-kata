@@ -13,6 +13,8 @@ echo 'Put on the leash and encourage your cute little cat to follow you' >> 'how
 git commit -am 'good commit 5'
 echo 'Bring your best friend to a park and enjoy!' >> 'how-to-walk-your-cat.txt'
 git commit -am 'good commit 6'
+echo '** Results may vary depending on your furry friend' >> 'how-to-walk-your-cat.txt'
+git commit -am 'good commit 7'
 git push --set-upstream origin kata-2/squash-commits
 echo 'All set.\n\n'
 echo 'Oops, we have too many commits for this simple task'
